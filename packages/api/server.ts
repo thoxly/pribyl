@@ -66,7 +66,10 @@ async function startServer() {
 
 async function initApp() {
   const mongoUri =
-    "mongodb+srv://admin_sm:iS8Fek8BYuPVdYR7@cluster0.wkitq1z.mongodb.net/tracker?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb://admin_sm:iS8Fek8BYuPVdYR7@ac-qdbxbai-shard-00-00.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-01.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-02.wkitq1z.mongodb.net:27017/?ssl=true&replicaSet=atlas-hzb9lh-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
+
+
+    // "mongodb+srv://admin_sm:iS8Fek8BYuPVdYR7@cluster0.wkitq1z.mongodb.net/tracker?retryWrites=true&w=majority&appName=Cluster0";
   console.log("🔎 Хардкод URI:", mongoUri);
 
   if (mongoUri) {
