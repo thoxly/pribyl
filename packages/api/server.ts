@@ -65,29 +65,7 @@ async function startServer() {
 }
 
 async function initApp() {
-  const mongoUri =
-  "mongodb://admin_sm:iS8Fek8BYuPVdYR7@ac-qdbxbai-shard-00-00.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-01.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-02.wkitq1z.mongodb.net:27017/?ssl=true&replicaSet=atlas-hzb9lh-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
-
-
-    // "mongodb+srv://admin_sm:iS8Fek8BYuPVdYR7@cluster0.wkitq1z.mongodb.net/tracker?retryWrites=true&w=majority&appName=Cluster0";
-  console.log("🔎 Хардкод URI:", mongoUri);
-
-  if (mongoUri) {
-    console.log("🔎 Подключение к Mongo:", mongoUri);
-  }
-  if (mongoUri) {
-    try {
-      await mongoose.connect(mongoUri, {
-        family: 4, // IPv4, полезно в sandbox
-        serverSelectionTimeoutMS: 10000,
-      });
-      console.log("🔌 Подключение к MongoDB Atlas установлено");
-    } catch (err) {
-      console.error("❌ Ошибка подключения к MongoDB Atlas:", err);
-    }
-  } else {
-    console.warn("⚠️ MONGODB_URI не указан — БД пропущена");
-  }
+  
 
   await startServer();
 }
