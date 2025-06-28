@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/bot" },
+    { "path": "packages/api" },
+    { "path": "packages/web" }
+  ]
+}
