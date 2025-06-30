@@ -49,8 +49,19 @@ const httpServer = http.createServer(app);
 console.log("📦 Инициализация Telegram webhook...");
 app.use(bot.webhookCallback("/telegram-webhook"));
 
+import dns from "dns";
+dns.lookup(
+  "ac-qdbxbai-shard-00-00.wkitq1z.mongodb.net",
+  (err, address, family) => {
+    if (err) console.error("❌ DNS проблема:", err);
+    else console.log("✅ DNS адрес MongoDB:", address);
+  }
+);
+
 mongoose
+
   .connect(MONGODB_URI)
+
   .then(async () => {
     console.log("🔌 Подключение к MongoDB установлено");
 
