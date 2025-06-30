@@ -40,7 +40,7 @@ import dotenv from "dotenv";
 
 // 🔧 Хардкод подключения к MongoDB
 const MONGODB_URI =
-  "mongodb://admin_sm:<db_password>@ac-qdbxbai-shard-00-00.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-01.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-02.wkitq1z.mongodb.net:27017/?ssl=true&replicaSet=atlas-hzb9lh-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb://admin_sm:iS8Fek8BYuPVdYR7@ac-qdbxbai-shard-00-00.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-01.wkitq1z.mongodb.net:27017,ac-qdbxbai-shard-00-02.wkitq1z.mongodb.net:27017/?ssl=true&replicaSet=atlas-hzb9lh-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
 
 dotenv.config();
 
