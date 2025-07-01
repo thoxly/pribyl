@@ -3541,3 +3541,1182 @@
     at listOnTimeout (node:internal/timers:614:17)
     at processTimers (node:internal/timers:549:7)
 2025-06-29 18:12:53.423 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 09:52:01.278 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 09:52:36.138 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 09:52:45.862 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 09:56:29.733 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 09:56:39.526 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:00:42.254 [DEBUG] 💬 New location received at 2025-06-30T07:00:42.254Z
+2025-06-30 10:00:42.258 [DEBUG] 📍 User: G Pr
+2025-06-30 10:00:42.258 [DEBUG] 🔄 Starting live location watchdog
+2025-06-30 10:00:42.260 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:00:42.265 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:00:42.259Z
+2025-06-30 10:00:42.266 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=1399, livePeriod=2147483647s, expireAt=2093-07-18T10:14:49.000Z
+2025-06-30 10:00:42.266 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:00:42.268 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:00:42.272 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=6862361ad6db6639e78141f0, taskId=undefined, timestamp=2025-06-30T07:00:42.272Z
+2025-06-30 10:00:42.281 [INFO] [PositionService] ✅ Позиция сохранена: 6862361ad6db6639e78141f2
+2025-06-30 10:00:42.281 [DEBUG] 📌 Position saved for session 6862361ad6db6639e78141f0
+2025-06-30 10:00:46.726 [DEBUG] 💬 New location received at 2025-06-30T07:00:46.726Z
+2025-06-30 10:00:46.726 [DEBUG] 📍 User: G Pr
+2025-06-30 10:00:46.727 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:00:46.730 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:00:46.727Z
+2025-06-30 10:00:46.730 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:00:46.731 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:00:46.732 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=6862361ad6db6639e78141f0, taskId=undefined, timestamp=2025-06-30T07:00:46.732Z
+2025-06-30 10:00:46.733 [INFO] [PositionService] ✅ Позиция сохранена: 6862361ed6db6639e7814200
+2025-06-30 10:00:46.734 [DEBUG] 📌 Position saved for session 6862361ad6db6639e78141f0
+2025-06-30 10:00:50.561 [DEBUG] 💬 New location received at 2025-06-30T07:00:50.561Z
+2025-06-30 10:00:50.564 [DEBUG] 📍 User: G Pr
+2025-06-30 10:00:50.564 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:00:50.572 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:00:50.564Z
+2025-06-30 10:00:50.573 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:00:50.574 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:00:50.575 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=6862361ad6db6639e78141f0, taskId=undefined, timestamp=2025-06-30T07:00:50.575Z
+2025-06-30 10:00:50.577 [INFO] [PositionService] ✅ Позиция сохранена: 68623622d6db6639e781420e
+2025-06-30 10:00:50.577 [DEBUG] 📌 Position saved for session 6862361ad6db6639e78141f0
+2025-06-30 10:01:38.320 [DEBUG] 💬 New location received at 2025-06-30T07:01:38.320Z
+2025-06-30 10:01:38.323 [DEBUG] 📍 User: G Pr
+2025-06-30 10:01:38.323 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:01:38.327 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:01:38.323Z
+2025-06-30 10:01:38.328 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:01:38.331 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:01:38.333 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=6862361ad6db6639e78141f0, taskId=undefined, timestamp=2025-06-30T07:01:38.333Z
+2025-06-30 10:01:38.343 [INFO] [PositionService] ✅ Позиция сохранена: 68623652d6db6639e781421c
+2025-06-30 10:01:38.344 [DEBUG] 📌 Position saved for session 6862361ad6db6639e78141f0
+2025-06-30 10:04:59.657 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T07:04:59.656Z
+2025-06-30 10:04:59.663 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 10:04:59.934 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 10:05:57.548 [DEBUG] 💬 New location received at 2025-06-30T07:05:57.548Z
+2025-06-30 10:05:57.555 [DEBUG] 📍 User: G Pr
+2025-06-30 10:05:57.555 [DEBUG] [Watchdog] ♻️ Self‑healing: create watch on the fly for 686235e3d6db6639e78141d1
+2025-06-30 10:05:57.556 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:05:57.567 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:05:57.568 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:05:57.570 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:05:57.570Z
+2025-06-30 10:05:57.572 [INFO] [PositionService] ✅ Позиция сохранена: 68623755d6db6639e7814246
+2025-06-30 10:05:57.572 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:05:57.577 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=0, livePeriod=1800s, expireAt=2025-06-30T07:35:57.000Z
+2025-06-30 10:05:57.579 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:05:57.577Z
+2025-06-30 10:05:59.699 [DEBUG] 💬 New location received at 2025-06-30T07:05:59.699Z
+2025-06-30 10:05:59.700 [DEBUG] 📍 User: G Pr
+2025-06-30 10:05:59.700 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:05:59.711 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:05:59.713 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:05:59.700Z
+2025-06-30 10:05:59.713 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:05:59.715 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:05:59.715Z
+2025-06-30 10:05:59.717 [INFO] [PositionService] ✅ Позиция сохранена: 68623757d6db6639e7814253
+2025-06-30 10:05:59.717 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:03.764 [DEBUG] 💬 New location received at 2025-06-30T07:06:03.764Z
+2025-06-30 10:06:03.766 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:03.766 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:03.769 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:03.766Z
+2025-06-30 10:06:03.770 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:03.770 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:03.771 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:03.771Z
+2025-06-30 10:06:03.772 [INFO] [PositionService] ✅ Позиция сохранена: 6862375bd6db6639e781425f
+2025-06-30 10:06:03.772 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:07.707 [DEBUG] 💬 New location received at 2025-06-30T07:06:07.707Z
+2025-06-30 10:06:07.708 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:07.708 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:07.718 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:07.708Z
+2025-06-30 10:06:07.719 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:07.720 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:07.722 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:07.722Z
+2025-06-30 10:06:07.724 [INFO] [PositionService] ✅ Позиция сохранена: 6862375fd6db6639e781426b
+2025-06-30 10:06:07.724 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:19.874 [DEBUG] 💬 New location received at 2025-06-30T07:06:19.874Z
+2025-06-30 10:06:19.877 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:19.877 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:19.880 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:19.877Z
+2025-06-30 10:06:19.881 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:19.882 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:19.883 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:19.883Z
+2025-06-30 10:06:19.885 [INFO] [PositionService] ✅ Позиция сохранена: 6862376bd6db6639e781428c
+2025-06-30 10:06:19.885 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:27.616 [DEBUG] 💬 New location received at 2025-06-30T07:06:27.616Z
+2025-06-30 10:06:27.620 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:27.620 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:27.624 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:27.620Z
+2025-06-30 10:06:27.624 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:27.625 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:27.626 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:27.626Z
+2025-06-30 10:06:27.629 [INFO] [PositionService] ✅ Позиция сохранена: 68623773d6db6639e7814299
+2025-06-30 10:06:27.629 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:31.826 [DEBUG] 💬 New location received at 2025-06-30T07:06:31.825Z
+2025-06-30 10:06:31.828 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:31.828 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:31.831 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:31.828Z
+2025-06-30 10:06:31.832 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:31.833 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:31.835 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:31.835Z
+2025-06-30 10:06:31.837 [INFO] [PositionService] ✅ Позиция сохранена: 68623777d6db6639e78142a6
+2025-06-30 10:06:31.837 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:35.713 [DEBUG] 💬 New location received at 2025-06-30T07:06:35.713Z
+2025-06-30 10:06:35.716 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:35.716 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:35.720 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:35.716Z
+2025-06-30 10:06:35.720 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:35.721 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:35.722 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:35.722Z
+2025-06-30 10:06:35.724 [INFO] [PositionService] ✅ Позиция сохранена: 6862377bd6db6639e78142b3
+2025-06-30 10:06:35.724 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:43.567 [DEBUG] 💬 New location received at 2025-06-30T07:06:43.567Z
+2025-06-30 10:06:43.569 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:43.570 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:43.573 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:43.569Z
+2025-06-30 10:06:43.573 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:43.575 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:43.577 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:43.577Z
+2025-06-30 10:06:43.579 [INFO] [PositionService] ✅ Позиция сохранена: 68623783d6db6639e78142c0
+2025-06-30 10:06:43.579 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:47.635 [DEBUG] 💬 New location received at 2025-06-30T07:06:47.635Z
+2025-06-30 10:06:47.637 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:47.637 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:47.641 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:47.637Z
+2025-06-30 10:06:47.641 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:47.642 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:47.643 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:47.643Z
+2025-06-30 10:06:47.645 [INFO] [PositionService] ✅ Позиция сохранена: 68623787d6db6639e78142cd
+2025-06-30 10:06:47.645 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:06:55.989 [DEBUG] 💬 New location received at 2025-06-30T07:06:55.989Z
+2025-06-30 10:06:55.991 [DEBUG] 📍 User: G Pr
+2025-06-30 10:06:55.992 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:06:55.995 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:06:55.992Z
+2025-06-30 10:06:55.997 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:06:55.999 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:06:56.001 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:06:56.001Z
+2025-06-30 10:06:56.003 [INFO] [PositionService] ✅ Позиция сохранена: 68623790d6db6639e78142da
+2025-06-30 10:06:56.003 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:03.704 [DEBUG] 💬 New location received at 2025-06-30T07:07:03.704Z
+2025-06-30 10:07:03.706 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:03.706 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:03.711 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:03.706Z
+2025-06-30 10:07:03.711 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:03.712 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:03.713 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:03.713Z
+2025-06-30 10:07:03.715 [INFO] [PositionService] ✅ Позиция сохранена: 68623797d6db6639e78142ee
+2025-06-30 10:07:03.715 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:07.629 [DEBUG] 💬 New location received at 2025-06-30T07:07:07.629Z
+2025-06-30 10:07:07.631 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:07.631 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:07.635 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:07.631Z
+2025-06-30 10:07:07.636 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:07.637 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:07.638 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:07.638Z
+2025-06-30 10:07:07.639 [INFO] [PositionService] ✅ Позиция сохранена: 6862379bd6db6639e78142fb
+2025-06-30 10:07:07.639 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:11.766 [DEBUG] 💬 New location received at 2025-06-30T07:07:11.766Z
+2025-06-30 10:07:11.772 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:11.772 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:11.777 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:11.772Z
+2025-06-30 10:07:11.777 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:11.779 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:11.780 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:11.780Z
+2025-06-30 10:07:11.785 [INFO] [PositionService] ✅ Позиция сохранена: 6862379fd6db6639e7814308
+2025-06-30 10:07:11.785 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:15.647 [DEBUG] 💬 New location received at 2025-06-30T07:07:15.647Z
+2025-06-30 10:07:15.648 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:15.649 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:15.652 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:15.649Z
+2025-06-30 10:07:15.652 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:15.654 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:15.655 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:15.655Z
+2025-06-30 10:07:15.656 [INFO] [PositionService] ✅ Позиция сохранена: 686237a3d6db6639e7814315
+2025-06-30 10:07:15.656 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:21.572 [DEBUG] 💬 New location received at 2025-06-30T07:07:21.572Z
+2025-06-30 10:07:21.574 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:21.575 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:21.579 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:21.575Z
+2025-06-30 10:07:21.579 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:21.581 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:21.582 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:21.582Z
+2025-06-30 10:07:21.584 [INFO] [PositionService] ✅ Позиция сохранена: 686237a9d6db6639e7814322
+2025-06-30 10:07:21.584 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:25.550 [DEBUG] 💬 New location received at 2025-06-30T07:07:25.550Z
+2025-06-30 10:07:25.552 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:25.552 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:25.555 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:25.552Z
+2025-06-30 10:07:25.556 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:25.558 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:25.560 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:25.560Z
+2025-06-30 10:07:25.562 [INFO] [PositionService] ✅ Позиция сохранена: 686237add6db6639e781432f
+2025-06-30 10:07:25.562 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:29.576 [DEBUG] 💬 New location received at 2025-06-30T07:07:29.576Z
+2025-06-30 10:07:29.578 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:29.579 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:29.583 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:29.578Z
+2025-06-30 10:07:29.584 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:29.586 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:29.587 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:29.587Z
+2025-06-30 10:07:29.589 [INFO] [PositionService] ✅ Позиция сохранена: 686237b1d6db6639e781433c
+2025-06-30 10:07:29.589 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:33.554 [DEBUG] 💬 New location received at 2025-06-30T07:07:33.554Z
+2025-06-30 10:07:33.556 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:33.557 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:33.560 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:33.557Z
+2025-06-30 10:07:33.561 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:33.562 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:33.564 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:33.564Z
+2025-06-30 10:07:33.568 [INFO] [PositionService] ✅ Позиция сохранена: 686237b5d6db6639e7814355
+2025-06-30 10:07:33.568 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:37.658 [DEBUG] 💬 New location received at 2025-06-30T07:07:37.658Z
+2025-06-30 10:07:37.660 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:37.660 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:37.662 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:37.660Z
+2025-06-30 10:07:37.662 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:37.663 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:37.664 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:37.664Z
+2025-06-30 10:07:37.665 [INFO] [PositionService] ✅ Позиция сохранена: 686237b9d6db6639e7814361
+2025-06-30 10:07:37.665 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:07:41.660 [DEBUG] 💬 New location received at 2025-06-30T07:07:41.660Z
+2025-06-30 10:07:41.662 [DEBUG] 📍 User: G Pr
+2025-06-30 10:07:41.662 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:07:41.666 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:07:41.662Z
+2025-06-30 10:07:41.667 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:07:41.669 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:07:41.670 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:07:41.670Z
+2025-06-30 10:07:41.674 [INFO] [PositionService] ✅ Позиция сохранена: 686237bdd6db6639e781436d
+2025-06-30 10:07:41.674 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:09:16.410 [DEBUG] 💬 New location received at 2025-06-30T07:09:16.410Z
+2025-06-30 10:09:16.414 [DEBUG] 📍 User: G Pr
+2025-06-30 10:09:16.414 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:09:16.445 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:09:16.414Z
+2025-06-30 10:09:16.445 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:09:16.449 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:09:16.450 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:09:16.450Z
+2025-06-30 10:09:16.469 [INFO] [PositionService] ✅ Позиция сохранена: 6862381cd6db6639e7814379
+2025-06-30 10:09:16.469 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:09:27.968 [DEBUG] 💬 New location received at 2025-06-30T07:09:27.968Z
+2025-06-30 10:09:27.972 [DEBUG] 📍 User: G Pr
+2025-06-30 10:09:27.973 [DEBUG] 🌐 Location: lat=56.321448, lon=44.031772
+2025-06-30 10:09:27.977 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:09:27.973Z
+2025-06-30 10:09:27.978 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:09:27.980 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:09:27.981 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321448, lon=44.031772, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:09:27.981Z
+2025-06-30 10:09:27.983 [INFO] [PositionService] ✅ Позиция сохранена: 68623827d6db6639e7814385
+2025-06-30 10:09:27.983 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:09:31.979 [DEBUG] 💬 New location received at 2025-06-30T07:09:31.979Z
+2025-06-30 10:09:31.981 [DEBUG] 📍 User: G Pr
+2025-06-30 10:09:31.981 [DEBUG] 🌐 Location: lat=56.32122, lon=44.033886
+2025-06-30 10:09:31.984 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:09:31.981Z
+2025-06-30 10:09:31.986 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:09:31.988 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:09:31.996 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32122, lon=44.033886, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:09:31.996Z
+2025-06-30 10:09:31.998 [INFO] [PositionService] ✅ Позиция сохранена: 6862382bd6db6639e7814391
+2025-06-30 10:09:31.998 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:09:38.094 [DEBUG] 💬 New location received at 2025-06-30T07:09:38.094Z
+2025-06-30 10:09:38.096 [DEBUG] 📍 User: G Pr
+2025-06-30 10:09:38.096 [DEBUG] 🌐 Location: lat=56.321431, lon=44.031805
+2025-06-30 10:09:38.100 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:09:38.096Z
+2025-06-30 10:09:38.101 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:09:38.102 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:09:38.104 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321431, lon=44.031805, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:09:38.104Z
+2025-06-30 10:09:38.105 [INFO] [PositionService] ✅ Позиция сохранена: 68623832d6db6639e781439d
+2025-06-30 10:09:38.105 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:09:42.180 [DEBUG] 💬 New location received at 2025-06-30T07:09:42.180Z
+2025-06-30 10:09:42.182 [DEBUG] 📍 User: G Pr
+2025-06-30 10:09:42.182 [DEBUG] 🌐 Location: lat=56.321594, lon=44.030268
+2025-06-30 10:09:42.186 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:09:42.182Z
+2025-06-30 10:09:42.187 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:09:42.188 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:09:42.190 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321594, lon=44.030268, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:09:42.190Z
+2025-06-30 10:09:42.192 [INFO] [PositionService] ✅ Позиция сохранена: 68623836d6db6639e78143a9
+2025-06-30 10:09:42.192 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:10:23.193 [DEBUG] 💬 New location received at 2025-06-30T07:10:23.193Z
+2025-06-30 10:10:23.195 [DEBUG] 📍 User: G Pr
+2025-06-30 10:10:23.195 [DEBUG] 🌐 Location: lat=56.321415, lon=44.031965
+2025-06-30 10:10:23.198 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:10:23.195Z
+2025-06-30 10:10:23.199 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:10:23.200 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:10:23.201 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321415, lon=44.031965, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:10:23.201Z
+2025-06-30 10:10:23.203 [INFO] [PositionService] ✅ Позиция сохранена: 6862385fd6db6639e78143b5
+2025-06-30 10:10:23.203 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:10:26.928 [DEBUG] 💬 New location received at 2025-06-30T07:10:26.928Z
+2025-06-30 10:10:26.929 [DEBUG] 📍 User: G Pr
+2025-06-30 10:10:26.929 [DEBUG] 🌐 Location: lat=56.321203, lon=44.033918
+2025-06-30 10:10:26.934 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:10:26.929Z
+2025-06-30 10:10:26.934 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:10:26.936 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:10:26.937 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321203, lon=44.033918, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:10:26.937Z
+2025-06-30 10:10:26.939 [INFO] [PositionService] ✅ Позиция сохранена: 68623862d6db6639e78143c1
+2025-06-30 10:10:26.939 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:10:51.198 [DEBUG] 💬 New location received at 2025-06-30T07:10:51.198Z
+2025-06-30 10:10:51.201 [DEBUG] 📍 User: G Pr
+2025-06-30 10:10:51.201 [DEBUG] 🌐 Location: lat=56.321414, lon=44.031837
+2025-06-30 10:10:51.204 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:10:51.201Z
+2025-06-30 10:10:51.207 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:10:51.208 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:10:51.208 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321414, lon=44.031837, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:10:51.208Z
+2025-06-30 10:10:51.212 [INFO] [PositionService] ✅ Позиция сохранена: 6862387bd6db6639e78143cd
+2025-06-30 10:10:51.212 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:10:55.198 [DEBUG] 💬 New location received at 2025-06-30T07:10:55.198Z
+2025-06-30 10:10:55.201 [DEBUG] 📍 User: G Pr
+2025-06-30 10:10:55.202 [DEBUG] 🌐 Location: lat=56.321594, lon=44.030268
+2025-06-30 10:10:55.208 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:10:55.201Z
+2025-06-30 10:10:55.209 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:10:55.211 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:10:55.212 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321594, lon=44.030268, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:10:55.212Z
+2025-06-30 10:10:55.214 [INFO] [PositionService] ✅ Позиция сохранена: 6862387fd6db6639e78143d9
+2025-06-30 10:10:55.214 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:11:23.916 [INFO] [Watchdog] 🔁 Restored 1 active watches from Mongo (startup)
+2025-06-30 10:11:33.731 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:15:41.979 [DEBUG] 💬 New location received at 2025-06-30T07:15:41.973Z
+2025-06-30 10:15:41.983 [DEBUG] 📍 User: G Pr
+2025-06-30 10:15:41.985 [DEBUG] 🌐 Location: lat=56.32161, lon=44.030171
+2025-06-30 10:15:41.996 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:15:41.984Z
+2025-06-30 10:15:41.998 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:15:42.000 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:15:42.003 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32161, lon=44.030171, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:15:42.003Z
+2025-06-30 10:15:42.019 [INFO] [PositionService] ✅ Позиция сохранена: 6862399e1d753a28fe646e0a
+2025-06-30 10:15:42.020 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:15:44.115 [DEBUG] 💬 New location received at 2025-06-30T07:15:44.115Z
+2025-06-30 10:15:44.117 [DEBUG] 📍 User: G Pr
+2025-06-30 10:15:44.118 [DEBUG] 🌐 Location: lat=56.32161, lon=44.030171
+2025-06-30 10:15:44.124 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:15:44.118Z
+2025-06-30 10:15:44.125 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:15:44.126 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:15:44.127 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32161, lon=44.030171, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:15:44.127Z
+2025-06-30 10:15:44.132 [INFO] [PositionService] ✅ Позиция сохранена: 686239a01d753a28fe646e16
+2025-06-30 10:15:44.132 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:15:48.155 [DEBUG] 💬 New location received at 2025-06-30T07:15:48.155Z
+2025-06-30 10:15:48.158 [DEBUG] 📍 User: G Pr
+2025-06-30 10:15:48.159 [DEBUG] 🌐 Location: lat=56.32161, lon=44.030171
+2025-06-30 10:15:48.164 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:15:48.158Z
+2025-06-30 10:15:48.166 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:15:48.167 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:15:48.169 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32161, lon=44.030171, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:15:48.169Z
+2025-06-30 10:15:48.172 [INFO] [PositionService] ✅ Позиция сохранена: 686239a41d753a28fe646e22
+2025-06-30 10:15:48.172 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:15:52.102 [DEBUG] 💬 New location received at 2025-06-30T07:15:52.102Z
+2025-06-30 10:15:52.103 [DEBUG] 📍 User: G Pr
+2025-06-30 10:15:52.103 [DEBUG] 🌐 Location: lat=56.32161, lon=44.030171
+2025-06-30 10:15:52.107 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:15:52.103Z
+2025-06-30 10:15:52.108 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:15:52.110 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:15:52.112 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32161, lon=44.030171, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:15:52.112Z
+2025-06-30 10:15:52.116 [INFO] [PositionService] ✅ Позиция сохранена: 686239a81d753a28fe646e2e
+2025-06-30 10:15:52.116 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:19:16.812 [DEBUG] 💬 New location received at 2025-06-30T07:19:16.811Z
+2025-06-30 10:19:16.815 [DEBUG] 📍 User: G Pr
+2025-06-30 10:19:16.816 [DEBUG] 🌐 Location: lat=56.32166, lon=44.029755
+2025-06-30 10:19:16.836 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:19:16.837 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:19:16.815Z
+2025-06-30 10:19:16.839 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:19:16.841 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.32166, lon=44.029755, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:19:16.841Z
+2025-06-30 10:19:16.852 [INFO] [PositionService] ✅ Позиция сохранена: 68623a741d753a28fe646e40
+2025-06-30 10:19:16.852 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:24:43.854 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T07:24:43.852Z
+2025-06-30 10:24:44.320 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 10:24:44.499 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 10:41:35.347 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 10:41:45.133 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:42:33.602 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 10:42:43.373 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:42:44.999 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 10:42:50.807 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 10:42:55.142 [DEBUG] 💬 New location received at 2025-06-30T07:42:55.139Z
+2025-06-30 10:42:55.145 [DEBUG] 📍 User: G Pr
+2025-06-30 10:42:55.146 [DEBUG] [Watchdog] ♻️ Self‑healing: create watch on the fly for 686235e3d6db6639e78141d1
+2025-06-30 10:42:55.147 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:42:55.163 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=0, livePeriod=1800s, expireAt=2025-06-30T08:12:55.000Z
+2025-06-30 10:42:55.165 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:42:55.166 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:42:55.163Z
+2025-06-30 10:42:55.167 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:42:55.169 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:42:55.169Z
+2025-06-30 10:42:55.187 [INFO] [PositionService] ✅ Позиция сохранена: 68623fff81bd6f9f40e5bad0
+2025-06-30 10:42:55.187 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:42:55.317 [DEBUG] 💬 New location received at 2025-06-30T07:42:55.317Z
+2025-06-30 10:42:55.318 [DEBUG] 📍 User: G Pr
+2025-06-30 10:42:55.319 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:42:55.324 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:42:55.319Z
+2025-06-30 10:42:55.325 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:42:55.326 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:42:55.327 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:42:55.327Z
+2025-06-30 10:42:55.333 [INFO] [PositionService] ✅ Позиция сохранена: 68623fff81bd6f9f40e5badc
+2025-06-30 10:42:55.333 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:42:58.794 [DEBUG] 💬 New location received at 2025-06-30T07:42:58.794Z
+2025-06-30 10:42:58.797 [DEBUG] 📍 User: G Pr
+2025-06-30 10:42:58.797 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:42:58.800 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:42:58.797Z
+2025-06-30 10:42:58.801 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:42:58.801 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:42:58.802 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:42:58.802Z
+2025-06-30 10:42:58.803 [INFO] [PositionService] ✅ Позиция сохранена: 6862400281bd6f9f40e5bae8
+2025-06-30 10:42:58.803 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:00.656 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:43:02.752 [DEBUG] 💬 New location received at 2025-06-30T07:43:02.752Z
+2025-06-30 10:43:02.753 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:02.753 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:02.756 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:02.753Z
+2025-06-30 10:43:02.756 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:02.757 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:02.757 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:02.757Z
+2025-06-30 10:43:02.761 [INFO] [PositionService] ✅ Позиция сохранена: 6862400681bd6f9f40e5baf4
+2025-06-30 10:43:02.761 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:06.699 [DEBUG] 💬 New location received at 2025-06-30T07:43:06.699Z
+2025-06-30 10:43:06.700 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:06.701 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:06.704 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:06.700Z
+2025-06-30 10:43:06.704 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:06.705 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:06.706 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:06.706Z
+2025-06-30 10:43:06.707 [INFO] [PositionService] ✅ Позиция сохранена: 6862400a81bd6f9f40e5bb00
+2025-06-30 10:43:06.707 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:10.738 [DEBUG] 💬 New location received at 2025-06-30T07:43:10.738Z
+2025-06-30 10:43:10.741 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:10.741 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:10.745 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:10.741Z
+2025-06-30 10:43:10.746 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:10.747 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:10.747 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:10.747Z
+2025-06-30 10:43:10.748 [INFO] [PositionService] ✅ Позиция сохранена: 6862400e81bd6f9f40e5bb0c
+2025-06-30 10:43:10.748 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:12.421 [INFO] [Watchdog] 🔁 Restored 1 active watches from Mongo (startup)
+2025-06-30 10:43:14.846 [DEBUG] 💬 New location received at 2025-06-30T07:43:14.845Z
+2025-06-30 10:43:14.848 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:14.848 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:14.853 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:14.848Z
+2025-06-30 10:43:14.854 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:14.855 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:14.856 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:14.856Z
+2025-06-30 10:43:14.862 [INFO] [PositionService] ✅ Позиция сохранена: 68624012edcb5c3188088167
+2025-06-30 10:43:14.863 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:18.730 [DEBUG] 💬 New location received at 2025-06-30T07:43:18.730Z
+2025-06-30 10:43:18.732 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:18.733 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:18.735 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:18.732Z
+2025-06-30 10:43:18.735 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:18.736 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:18.737 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:18.737Z
+2025-06-30 10:43:18.739 [INFO] [PositionService] ✅ Позиция сохранена: 68624016edcb5c3188088173
+2025-06-30 10:43:18.739 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:19.614 [INFO] [Watchdog] 🔁 Restored 1 active watches from Mongo (startup)
+2025-06-30 10:43:22.831 [DEBUG] 💬 New location received at 2025-06-30T07:43:22.831Z
+2025-06-30 10:43:22.832 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:22.833 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:22.837 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:22.832Z
+2025-06-30 10:43:22.838 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:22.839 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:22.840 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:22.840Z
+2025-06-30 10:43:22.845 [INFO] [PositionService] ✅ Позиция сохранена: 6862401a1d9586c757c8f02a
+2025-06-30 10:43:22.845 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:26.768 [DEBUG] 💬 New location received at 2025-06-30T07:43:26.768Z
+2025-06-30 10:43:26.769 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:26.769 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:26.771 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:26.769Z
+2025-06-30 10:43:26.772 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:26.772 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:26.773 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:26.773Z
+2025-06-30 10:43:26.775 [INFO] [PositionService] ✅ Позиция сохранена: 6862401e1d9586c757c8f036
+2025-06-30 10:43:26.775 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:29.429 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:43:30.732 [DEBUG] 💬 New location received at 2025-06-30T07:43:30.732Z
+2025-06-30 10:43:30.733 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:30.733 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:43:30.738 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:30.733Z
+2025-06-30 10:43:30.739 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:30.740 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:30.741 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:30.741Z
+2025-06-30 10:43:30.744 [INFO] [PositionService] ✅ Позиция сохранена: 686240221d9586c757c8f042
+2025-06-30 10:43:30.744 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:34.729 [DEBUG] 💬 New location received at 2025-06-30T07:43:34.729Z
+2025-06-30 10:43:34.730 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:34.730 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:34.734 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:34.730Z
+2025-06-30 10:43:34.735 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:34.736 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:34.738 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:34.738Z
+2025-06-30 10:43:34.740 [INFO] [PositionService] ✅ Позиция сохранена: 686240261d9586c757c8f04e
+2025-06-30 10:43:34.740 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:38.821 [DEBUG] 💬 New location received at 2025-06-30T07:43:38.821Z
+2025-06-30 10:43:38.823 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:38.824 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:38.827 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:38.823Z
+2025-06-30 10:43:38.827 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:38.828 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:38.829 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:38.829Z
+2025-06-30 10:43:38.831 [INFO] [PositionService] ✅ Позиция сохранена: 6862402a1d9586c757c8f05a
+2025-06-30 10:43:38.831 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:42.768 [DEBUG] 💬 New location received at 2025-06-30T07:43:42.768Z
+2025-06-30 10:43:42.768 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:42.768 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:42.770 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:42.768Z
+2025-06-30 10:43:42.771 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:42.771 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:42.772 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:42.772Z
+2025-06-30 10:43:42.774 [INFO] [PositionService] ✅ Позиция сохранена: 6862402e1d9586c757c8f066
+2025-06-30 10:43:42.774 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:46.737 [DEBUG] 💬 New location received at 2025-06-30T07:43:46.737Z
+2025-06-30 10:43:46.739 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:46.739 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:46.742 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:46.739Z
+2025-06-30 10:43:46.743 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:46.745 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:46.746 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:46.746Z
+2025-06-30 10:43:46.748 [INFO] [PositionService] ✅ Позиция сохранена: 686240321d9586c757c8f072
+2025-06-30 10:43:46.748 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:51.061 [DEBUG] 💬 New location received at 2025-06-30T07:43:51.060Z
+2025-06-30 10:43:51.063 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:51.064 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:51.068 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:51.063Z
+2025-06-30 10:43:51.070 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:51.073 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:51.074 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:51.074Z
+2025-06-30 10:43:51.076 [INFO] [PositionService] ✅ Позиция сохранена: 686240371d9586c757c8f07e
+2025-06-30 10:43:51.076 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:54.724 [DEBUG] 💬 New location received at 2025-06-30T07:43:54.724Z
+2025-06-30 10:43:54.725 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:54.726 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 10:43:54.728 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:54.725Z
+2025-06-30 10:43:54.729 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:54.729 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:54.730 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:54.730Z
+2025-06-30 10:43:54.732 [INFO] [PositionService] ✅ Позиция сохранена: 6862403a1d9586c757c8f08a
+2025-06-30 10:43:54.732 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:43:58.738 [DEBUG] 💬 New location received at 2025-06-30T07:43:58.738Z
+2025-06-30 10:43:58.741 [DEBUG] 📍 User: G Pr
+2025-06-30 10:43:58.741 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:43:58.743 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:43:58.741Z
+2025-06-30 10:43:58.743 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:43:58.744 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:43:58.745 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:43:58.745Z
+2025-06-30 10:43:58.747 [INFO] [PositionService] ✅ Позиция сохранена: 6862403e1d9586c757c8f096
+2025-06-30 10:43:58.747 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:44:02.737 [DEBUG] 💬 New location received at 2025-06-30T07:44:02.737Z
+2025-06-30 10:44:02.738 [DEBUG] 📍 User: G Pr
+2025-06-30 10:44:02.738 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:44:02.740 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:44:02.738Z
+2025-06-30 10:44:02.740 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:44:02.741 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:44:02.741 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:44:02.741Z
+2025-06-30 10:44:02.742 [INFO] [PositionService] ✅ Позиция сохранена: 686240421d9586c757c8f0a2
+2025-06-30 10:44:02.742 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:44:06.726 [DEBUG] 💬 New location received at 2025-06-30T07:44:06.726Z
+2025-06-30 10:44:06.729 [DEBUG] 📍 User: G Pr
+2025-06-30 10:44:06.729 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:44:06.732 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:44:06.729Z
+2025-06-30 10:44:06.734 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:44:06.736 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:44:06.738 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:44:06.738Z
+2025-06-30 10:44:06.740 [INFO] [PositionService] ✅ Позиция сохранена: 686240461d9586c757c8f0ae
+2025-06-30 10:44:06.740 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:44:10.870 [DEBUG] 💬 New location received at 2025-06-30T07:44:10.869Z
+2025-06-30 10:44:10.874 [DEBUG] 📍 User: G Pr
+2025-06-30 10:44:10.874 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:44:10.877 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:44:10.874Z
+2025-06-30 10:44:10.877 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:44:10.879 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:44:10.881 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:44:10.881Z
+2025-06-30 10:44:10.883 [INFO] [PositionService] ✅ Позиция сохранена: 6862404a1d9586c757c8f0ba
+2025-06-30 10:44:10.883 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:44:20.903 [DEBUG] 💬 New location received at 2025-06-30T07:44:20.903Z
+2025-06-30 10:44:20.905 [DEBUG] 📍 User: G Pr
+2025-06-30 10:44:20.905 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:44:20.909 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:44:20.905Z
+2025-06-30 10:44:20.910 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:44:20.912 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:44:20.913 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:44:20.913Z
+2025-06-30 10:44:20.915 [INFO] [PositionService] ✅ Позиция сохранена: 686240541d9586c757c8f0cc
+2025-06-30 10:44:20.915 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:44:25.022 [DEBUG] 💬 New location received at 2025-06-30T07:44:25.022Z
+2025-06-30 10:44:25.024 [DEBUG] 📍 User: G Pr
+2025-06-30 10:44:25.024 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:44:25.028 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:44:25.024Z
+2025-06-30 10:44:25.029 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:44:25.030 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:44:25.032 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=68623755d6db6639e7814244, taskId=6862370bd6db6639e781422f, timestamp=2025-06-30T07:44:25.032Z
+2025-06-30 10:44:25.034 [INFO] [PositionService] ✅ Позиция сохранена: 686240591d9586c757c8f0d8
+2025-06-30 10:44:25.034 [DEBUG] 📌 Position saved for session 68623755d6db6639e7814244
+2025-06-30 10:45:01.651 [DEBUG] 💬 New location received at 2025-06-30T07:45:01.651Z
+2025-06-30 10:45:01.653 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:01.653 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:01.657 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:01.653Z
+2025-06-30 10:45:01.658 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:01.660 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:01.663 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:01.663Z
+2025-06-30 10:45:01.665 [INFO] [PositionService] ✅ Позиция сохранена: 6862407d1d9586c757c8f109
+2025-06-30 10:45:01.665 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:05.281 [DEBUG] 💬 New location received at 2025-06-30T07:45:05.281Z
+2025-06-30 10:45:05.283 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:05.283 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:05.286 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:05.283Z
+2025-06-30 10:45:05.288 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:05.289 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:05.291 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:05.291Z
+2025-06-30 10:45:05.293 [INFO] [PositionService] ✅ Позиция сохранена: 686240811d9586c757c8f122
+2025-06-30 10:45:05.293 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:09.451 [DEBUG] 💬 New location received at 2025-06-30T07:45:09.451Z
+2025-06-30 10:45:09.452 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:09.453 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:09.457 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:09.452Z
+2025-06-30 10:45:09.458 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:09.459 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:09.460 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:09.460Z
+2025-06-30 10:45:09.463 [INFO] [PositionService] ✅ Позиция сохранена: 686240851d9586c757c8f136
+2025-06-30 10:45:09.463 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:17.457 [DEBUG] 💬 New location received at 2025-06-30T07:45:17.457Z
+2025-06-30 10:45:17.459 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:17.459 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:17.463 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:17.459Z
+2025-06-30 10:45:17.464 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:17.466 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:17.468 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:17.468Z
+2025-06-30 10:45:17.470 [INFO] [PositionService] ✅ Позиция сохранена: 6862408d1d9586c757c8f143
+2025-06-30 10:45:17.470 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:21.591 [DEBUG] 💬 New location received at 2025-06-30T07:45:21.591Z
+2025-06-30 10:45:21.593 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:21.594 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:21.598 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:21.594Z
+2025-06-30 10:45:21.599 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:21.601 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:21.603 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:21.602Z
+2025-06-30 10:45:21.604 [INFO] [PositionService] ✅ Позиция сохранена: 686240911d9586c757c8f150
+2025-06-30 10:45:21.605 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:25.294 [DEBUG] 💬 New location received at 2025-06-30T07:45:25.294Z
+2025-06-30 10:45:25.296 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:25.297 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:25.300 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:25.297Z
+2025-06-30 10:45:25.301 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:25.302 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:25.304 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:25.304Z
+2025-06-30 10:45:25.306 [INFO] [PositionService] ✅ Позиция сохранена: 686240951d9586c757c8f15d
+2025-06-30 10:45:25.306 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:29.536 [DEBUG] 💬 New location received at 2025-06-30T07:45:29.536Z
+2025-06-30 10:45:29.539 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:29.539 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:29.543 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:29.539Z
+2025-06-30 10:45:29.545 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:29.547 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:29.548 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:29.548Z
+2025-06-30 10:45:29.551 [INFO] [PositionService] ✅ Позиция сохранена: 686240991d9586c757c8f16a
+2025-06-30 10:45:29.551 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:33.381 [DEBUG] 💬 New location received at 2025-06-30T07:45:33.381Z
+2025-06-30 10:45:33.383 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:33.383 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:33.387 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:33.383Z
+2025-06-30 10:45:33.388 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:33.389 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:33.390 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:33.390Z
+2025-06-30 10:45:33.392 [INFO] [PositionService] ✅ Позиция сохранена: 6862409d1d9586c757c8f180
+2025-06-30 10:45:33.392 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:45:37.523 [DEBUG] 💬 New location received at 2025-06-30T07:45:37.523Z
+2025-06-30 10:45:37.525 [DEBUG] 📍 User: G Pr
+2025-06-30 10:45:37.525 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:45:37.528 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:45:37.525Z
+2025-06-30 10:45:37.529 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:45:37.530 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:45:37.532 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862407d1d9586c757c8f107, taskId=6862407a1d9586c757c8f0f5, timestamp=2025-06-30T07:45:37.532Z
+2025-06-30 10:45:37.534 [INFO] [PositionService] ✅ Позиция сохранена: 686240a11d9586c757c8f18d
+2025-06-30 10:45:37.534 [DEBUG] 📌 Position saved for session 6862407d1d9586c757c8f107
+2025-06-30 10:47:42.713 [DEBUG] 💬 New location received at 2025-06-30T07:47:42.713Z
+2025-06-30 10:47:42.715 [DEBUG] 📍 User: G Pr
+2025-06-30 10:47:42.715 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:47:42.720 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:47:42.715Z
+2025-06-30 10:47:42.721 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:47:42.722 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:47:42.724 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:47:42.724Z
+2025-06-30 10:47:42.731 [INFO] [PositionService] ✅ Позиция сохранена: 6862411e1d9586c757c8f1c1
+2025-06-30 10:47:42.731 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:47:46.609 [DEBUG] 💬 New location received at 2025-06-30T07:47:46.609Z
+2025-06-30 10:47:46.611 [DEBUG] 📍 User: G Pr
+2025-06-30 10:47:46.612 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:47:46.617 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:47:46.611Z
+2025-06-30 10:47:46.618 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:47:46.619 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:47:46.620 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:47:46.620Z
+2025-06-30 10:47:46.622 [INFO] [PositionService] ✅ Позиция сохранена: 686241221d9586c757c8f1da
+2025-06-30 10:47:46.622 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:47:50.632 [DEBUG] 💬 New location received at 2025-06-30T07:47:50.632Z
+2025-06-30 10:47:50.634 [DEBUG] 📍 User: G Pr
+2025-06-30 10:47:50.634 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:47:50.637 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:47:50.634Z
+2025-06-30 10:47:50.637 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:47:50.639 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:47:50.640 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:47:50.640Z
+2025-06-30 10:47:50.643 [INFO] [PositionService] ✅ Позиция сохранена: 686241261d9586c757c8f1ee
+2025-06-30 10:47:50.643 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:47:54.750 [DEBUG] 💬 New location received at 2025-06-30T07:47:54.750Z
+2025-06-30 10:47:54.751 [DEBUG] 📍 User: G Pr
+2025-06-30 10:47:54.751 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:47:54.755 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:47:54.751Z
+2025-06-30 10:47:54.756 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:47:54.759 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:47:54.760 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:47:54.760Z
+2025-06-30 10:47:54.763 [INFO] [PositionService] ✅ Позиция сохранена: 6862412a1d9586c757c8f203
+2025-06-30 10:47:54.763 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:47:58.587 [DEBUG] 💬 New location received at 2025-06-30T07:47:58.587Z
+2025-06-30 10:47:58.589 [DEBUG] 📍 User: G Pr
+2025-06-30 10:47:58.589 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:47:58.594 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:47:58.589Z
+2025-06-30 10:47:58.595 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:47:58.596 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:47:58.597 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:47:58.597Z
+2025-06-30 10:47:58.599 [INFO] [PositionService] ✅ Позиция сохранена: 6862412e1d9586c757c8f214
+2025-06-30 10:47:58.599 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:02.628 [DEBUG] 💬 New location received at 2025-06-30T07:48:02.627Z
+2025-06-30 10:48:02.630 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:02.630 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:02.634 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:02.630Z
+2025-06-30 10:48:02.636 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:02.637 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:02.638 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:48:02.638Z
+2025-06-30 10:48:02.640 [INFO] [PositionService] ✅ Позиция сохранена: 686241321d9586c757c8f220
+2025-06-30 10:48:02.640 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:06.615 [DEBUG] 💬 New location received at 2025-06-30T07:48:06.615Z
+2025-06-30 10:48:06.618 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:06.618 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:06.621 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:06.618Z
+2025-06-30 10:48:06.621 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:06.622 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:06.624 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:48:06.624Z
+2025-06-30 10:48:06.625 [INFO] [PositionService] ✅ Позиция сохранена: 686241361d9586c757c8f22c
+2025-06-30 10:48:06.626 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:11.033 [DEBUG] 💬 New location received at 2025-06-30T07:48:11.033Z
+2025-06-30 10:48:11.036 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:11.037 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:11.041 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:11.037Z
+2025-06-30 10:48:11.042 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:11.043 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:11.044 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:48:11.044Z
+2025-06-30 10:48:11.046 [INFO] [PositionService] ✅ Позиция сохранена: 6862413b1d9586c757c8f238
+2025-06-30 10:48:11.046 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:23.671 [DEBUG] 💬 New location received at 2025-06-30T07:48:23.671Z
+2025-06-30 10:48:23.673 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:23.673 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:23.677 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:23.673Z
+2025-06-30 10:48:23.677 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:23.679 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:23.681 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:48:23.681Z
+2025-06-30 10:48:23.684 [INFO] [PositionService] ✅ Позиция сохранена: 686241471d9586c757c8f254
+2025-06-30 10:48:23.684 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:27.665 [DEBUG] 💬 New location received at 2025-06-30T07:48:27.664Z
+2025-06-30 10:48:27.669 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:27.669 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:27.674 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:27.669Z
+2025-06-30 10:48:27.675 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:27.678 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:27.679 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=6862411e1d9586c757c8f1bf, taskId=686241171d9586c757c8f1ad, timestamp=2025-06-30T07:48:27.679Z
+2025-06-30 10:48:27.681 [INFO] [PositionService] ✅ Позиция сохранена: 6862414b1d9586c757c8f260
+2025-06-30 10:48:27.681 [DEBUG] 📌 Position saved for session 6862411e1d9586c757c8f1bf
+2025-06-30 10:48:57.097 [DEBUG] 💬 New location received at 2025-06-30T07:48:57.096Z
+2025-06-30 10:48:57.099 [DEBUG] 📍 User: G Pr
+2025-06-30 10:48:57.099 [DEBUG] 🌐 Location: lat=56.321609, lon=44.030044
+2025-06-30 10:48:57.103 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:48:57.099Z
+2025-06-30 10:48:57.104 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:48:57.106 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:48:57.106 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321609, lon=44.030044, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:48:57.106Z
+2025-06-30 10:48:57.108 [INFO] [PositionService] ✅ Позиция сохранена: 686241691d9586c757c8f29e
+2025-06-30 10:48:57.108 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:01.076 [DEBUG] 💬 New location received at 2025-06-30T07:49:01.076Z
+2025-06-30 10:49:01.079 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:01.079 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:01.083 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:01.079Z
+2025-06-30 10:49:01.084 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:01.086 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:01.088 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:01.088Z
+2025-06-30 10:49:01.091 [INFO] [PositionService] ✅ Позиция сохранена: 6862416d1d9586c757c8f2b2
+2025-06-30 10:49:01.091 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:06.197 [DEBUG] 💬 New location received at 2025-06-30T07:49:06.197Z
+2025-06-30 10:49:06.199 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:06.200 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:06.203 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:06.199Z
+2025-06-30 10:49:06.203 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:06.205 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:06.206 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:06.206Z
+2025-06-30 10:49:06.207 [INFO] [PositionService] ✅ Позиция сохранена: 686241721d9586c757c8f2d2
+2025-06-30 10:49:06.207 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:12.920 [DEBUG] 💬 New location received at 2025-06-30T07:49:12.920Z
+2025-06-30 10:49:12.922 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:12.922 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:12.927 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:12.922Z
+2025-06-30 10:49:12.927 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:12.929 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:12.930 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:12.930Z
+2025-06-30 10:49:12.931 [INFO] [PositionService] ✅ Позиция сохранена: 686241781d9586c757c8f2e4
+2025-06-30 10:49:12.931 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:16.792 [DEBUG] 💬 New location received at 2025-06-30T07:49:16.792Z
+2025-06-30 10:49:16.794 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:16.794 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:16.797 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:16.794Z
+2025-06-30 10:49:16.798 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:16.800 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:16.801 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:16.801Z
+2025-06-30 10:49:16.802 [INFO] [PositionService] ✅ Позиция сохранена: 6862417c1d9586c757c8f2f0
+2025-06-30 10:49:16.803 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:32.593 [DEBUG] 💬 New location received at 2025-06-30T07:49:32.593Z
+2025-06-30 10:49:32.594 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:32.594 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:32.597 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:32.594Z
+2025-06-30 10:49:32.598 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:32.599 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:32.601 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:32.601Z
+2025-06-30 10:49:32.603 [INFO] [PositionService] ✅ Позиция сохранена: 6862418c1d9586c757c8f30d
+2025-06-30 10:49:32.603 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:36.631 [DEBUG] 💬 New location received at 2025-06-30T07:49:36.631Z
+2025-06-30 10:49:36.634 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:36.635 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:36.639 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:36.635Z
+2025-06-30 10:49:36.640 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:36.641 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:36.642 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:36.642Z
+2025-06-30 10:49:36.643 [INFO] [PositionService] ✅ Позиция сохранена: 686241901d9586c757c8f319
+2025-06-30 10:49:36.643 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:40.699 [DEBUG] 💬 New location received at 2025-06-30T07:49:40.699Z
+2025-06-30 10:49:40.701 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:40.702 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:40.705 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:40.701Z
+2025-06-30 10:49:40.706 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:40.708 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:40.710 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:40.710Z
+2025-06-30 10:49:40.711 [INFO] [PositionService] ✅ Позиция сохранена: 686241941d9586c757c8f325
+2025-06-30 10:49:40.712 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:44.722 [DEBUG] 💬 New location received at 2025-06-30T07:49:44.722Z
+2025-06-30 10:49:44.723 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:44.724 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:44.726 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:44.724Z
+2025-06-30 10:49:44.727 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:44.727 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:44.729 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:44.729Z
+2025-06-30 10:49:44.730 [INFO] [PositionService] ✅ Позиция сохранена: 686241981d9586c757c8f335
+2025-06-30 10:49:44.730 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:53.091 [DEBUG] 💬 New location received at 2025-06-30T07:49:53.091Z
+2025-06-30 10:49:53.093 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:53.093 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:53.096 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:53.093Z
+2025-06-30 10:49:53.096 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:53.098 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:53.100 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:53.100Z
+2025-06-30 10:49:53.102 [INFO] [PositionService] ✅ Позиция сохранена: 686241a11d9586c757c8f349
+2025-06-30 10:49:53.103 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:49:57.364 [DEBUG] 💬 New location received at 2025-06-30T07:49:57.364Z
+2025-06-30 10:49:57.366 [DEBUG] 📍 User: G Pr
+2025-06-30 10:49:57.366 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:49:57.369 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:49:57.366Z
+2025-06-30 10:49:57.369 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:49:57.372 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:49:57.373 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:49:57.373Z
+2025-06-30 10:49:57.375 [INFO] [PositionService] ✅ Позиция сохранена: 686241a51d9586c757c8f356
+2025-06-30 10:49:57.375 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:50:01.090 [DEBUG] 💬 New location received at 2025-06-30T07:50:01.090Z
+2025-06-30 10:50:01.092 [DEBUG] 📍 User: G Pr
+2025-06-30 10:50:01.092 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:50:01.095 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:50:01.092Z
+2025-06-30 10:50:01.096 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:50:01.097 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:50:01.099 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:50:01.099Z
+2025-06-30 10:50:01.101 [INFO] [PositionService] ✅ Позиция сохранена: 686241a91d9586c757c8f363
+2025-06-30 10:50:01.101 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:50:09.090 [DEBUG] 💬 New location received at 2025-06-30T07:50:09.090Z
+2025-06-30 10:50:09.093 [DEBUG] 📍 User: G Pr
+2025-06-30 10:50:09.093 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:50:09.097 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:50:09.093Z
+2025-06-30 10:50:09.098 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:50:09.099 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:50:09.101 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:50:09.101Z
+2025-06-30 10:50:09.103 [INFO] [PositionService] ✅ Позиция сохранена: 686241b11d9586c757c8f379
+2025-06-30 10:50:09.103 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:50:13.394 [DEBUG] 💬 New location received at 2025-06-30T07:50:13.394Z
+2025-06-30 10:50:13.396 [DEBUG] 📍 User: G Pr
+2025-06-30 10:50:13.397 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:50:13.401 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:50:13.396Z
+2025-06-30 10:50:13.401 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:50:13.403 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:50:13.404 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:50:13.404Z
+2025-06-30 10:50:13.406 [INFO] [PositionService] ✅ Позиция сохранена: 686241b51d9586c757c8f390
+2025-06-30 10:50:13.406 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:50:17.184 [DEBUG] 💬 New location received at 2025-06-30T07:50:17.184Z
+2025-06-30 10:50:17.187 [DEBUG] 📍 User: G Pr
+2025-06-30 10:50:17.187 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:50:17.191 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:50:17.187Z
+2025-06-30 10:50:17.192 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:50:17.193 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:50:17.194 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:50:17.194Z
+2025-06-30 10:50:17.196 [INFO] [PositionService] ✅ Позиция сохранена: 686241b91d9586c757c8f3a2
+2025-06-30 10:50:17.196 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:53:01.435 [INFO] [Watchdog] 🔁 Restored 1 active watches from Mongo (startup)
+2025-06-30 10:53:11.257 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 10:53:46.684 [DEBUG] 💬 New location received at 2025-06-30T07:53:46.680Z
+2025-06-30 10:53:46.688 [DEBUG] 📍 User: G Pr
+2025-06-30 10:53:46.690 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:53:46.711 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:53:46.712 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:53:46.689Z
+2025-06-30 10:53:46.713 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:53:46.716 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:53:46.716Z
+2025-06-30 10:53:46.735 [INFO] [PositionService] ✅ Позиция сохранена: 6862428a9c2c11d92574efde
+2025-06-30 10:53:46.736 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:53:50.274 [DEBUG] 💬 New location received at 2025-06-30T07:53:50.274Z
+2025-06-30 10:53:50.276 [DEBUG] 📍 User: G Pr
+2025-06-30 10:53:50.277 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:53:50.282 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:53:50.276Z
+2025-06-30 10:53:50.283 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:53:50.284 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:53:50.285 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:53:50.285Z
+2025-06-30 10:53:50.291 [INFO] [PositionService] ✅ Позиция сохранена: 6862428e9c2c11d92574efea
+2025-06-30 10:53:50.291 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:56:26.745 [INFO] [Watchdog] 🔁 Restored 1 active watches from Mongo (startup)
+2025-06-30 10:56:35.726 [DEBUG] 💬 New location received at 2025-06-30T07:56:35.723Z
+2025-06-30 10:56:35.729 [DEBUG] 📍 User: G Pr
+2025-06-30 10:56:35.731 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:56:35.740 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:56:35.730Z
+2025-06-30 10:56:35.742 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:56:35.749 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:56:35.752 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:56:35.752Z
+2025-06-30 10:56:35.761 [INFO] [PositionService] ✅ Позиция сохранена: 686243330e17592a5799199e
+2025-06-30 10:56:35.762 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:58:09.431 [DEBUG] 💬 New location received at 2025-06-30T07:58:09.431Z
+2025-06-30 10:58:09.434 [DEBUG] 📍 User: G Pr
+2025-06-30 10:58:09.434 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:58:09.463 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:58:09.434Z
+2025-06-30 10:58:09.464 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:58:09.468 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:58:09.469 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:58:09.469Z
+2025-06-30 10:58:09.481 [INFO] [PositionService] ✅ Позиция сохранена: 686243910e17592a579919d4
+2025-06-30 10:58:09.481 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 10:58:12.884 [DEBUG] 💬 New location received at 2025-06-30T07:58:12.884Z
+2025-06-30 10:58:12.887 [DEBUG] 📍 User: G Pr
+2025-06-30 10:58:12.887 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 10:58:12.891 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T07:58:12.887Z
+2025-06-30 10:58:12.891 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 10:58:12.893 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 10:58:12.895 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T07:58:12.895Z
+2025-06-30 10:58:12.898 [INFO] [PositionService] ✅ Позиция сохранена: 686243940e17592a579919e0
+2025-06-30 10:58:12.898 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:03:56.679 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T08:03:56.675Z
+2025-06-30 11:03:56.735 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 11:03:56.990 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 11:04:59.206 [DEBUG] 💬 New location received at 2025-06-30T08:04:59.206Z
+2025-06-30 11:04:59.207 [DEBUG] 📍 User: G Pr
+2025-06-30 11:04:59.207 [DEBUG] [Watchdog] ♻️ Self‑healing: create watch on the fly for 686235e3d6db6639e78141d1
+2025-06-30 11:04:59.208 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 11:04:59.215 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:04:59.217 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:04:59.219 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:04:59.219Z
+2025-06-30 11:04:59.221 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=0, livePeriod=1800s, expireAt=2025-06-30T08:34:59.000Z
+2025-06-30 11:04:59.223 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:04:59.221Z
+2025-06-30 11:04:59.223 [INFO] [PositionService] ✅ Позиция сохранена: 6862452b0e17592a579919ef
+2025-06-30 11:04:59.224 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:05:02.925 [DEBUG] 💬 New location received at 2025-06-30T08:05:02.925Z
+2025-06-30 11:05:02.928 [DEBUG] 📍 User: G Pr
+2025-06-30 11:05:02.928 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 11:05:02.935 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:05:02.928Z
+2025-06-30 11:05:02.936 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:05:02.938 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:05:02.939 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:05:02.939Z
+2025-06-30 11:05:02.941 [INFO] [PositionService] ✅ Позиция сохранена: 6862452e0e17592a579919fc
+2025-06-30 11:05:02.942 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:05:06.963 [DEBUG] 💬 New location received at 2025-06-30T08:05:06.963Z
+2025-06-30 11:05:06.965 [DEBUG] 📍 User: G Pr
+2025-06-30 11:05:06.965 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 11:05:06.969 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:05:06.965Z
+2025-06-30 11:05:06.970 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:05:06.972 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:05:06.973 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:05:06.973Z
+2025-06-30 11:05:06.975 [INFO] [PositionService] ✅ Позиция сохранена: 686245320e17592a57991a08
+2025-06-30 11:05:06.975 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:10:36.679 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T08:10:36.676Z
+2025-06-30 11:10:36.741 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 11:10:36.923 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 11:49:03.656 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 11:49:14.736 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 11:49:19.548 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 11:52:24.936 [DEBUG] 💬 New location received at 2025-06-30T08:52:24.936Z
+2025-06-30 11:52:24.956 [DEBUG] 📍 User: G Pr
+2025-06-30 11:52:24.957 [DEBUG] [Watchdog] ♻️ Self‑healing: create watch on the fly for 686235e3d6db6639e78141d1
+2025-06-30 11:52:24.959 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 11:52:25.037 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:52:25.042 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=0, livePeriod=1800s, expireAt=2025-06-30T09:22:24.000Z
+2025-06-30 11:52:25.074 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:52:25.042Z
+2025-06-30 11:52:25.100 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:52:25.162 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:52:25.162Z
+2025-06-30 11:52:25.206 [INFO] [PositionService] ✅ Позиция сохранена: 68625049e74bf7b157a83759
+2025-06-30 11:52:25.207 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:52:28.083 [DEBUG] 💬 New location received at 2025-06-30T08:52:28.083Z
+2025-06-30 11:52:28.084 [DEBUG] 📍 User: G Pr
+2025-06-30 11:52:28.085 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 11:52:28.086 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:52:28.084Z
+2025-06-30 11:52:28.087 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:52:28.088 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:52:28.090 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:52:28.089Z
+2025-06-30 11:52:28.092 [INFO] [PositionService] ✅ Позиция сохранена: 6862504ce74bf7b157a83765
+2025-06-30 11:52:28.092 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:52:32.165 [DEBUG] 💬 New location received at 2025-06-30T08:52:32.165Z
+2025-06-30 11:52:32.169 [DEBUG] 📍 User: G Pr
+2025-06-30 11:52:32.169 [DEBUG] 🌐 Location: lat=56.321154, lon=44.034399
+2025-06-30 11:52:32.174 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T08:52:32.169Z
+2025-06-30 11:52:32.175 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 11:52:32.177 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 11:52:32.178 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321154, lon=44.034399, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T08:52:32.178Z
+2025-06-30 11:52:32.180 [INFO] [PositionService] ✅ Позиция сохранена: 68625050e74bf7b157a83771
+2025-06-30 11:52:32.180 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 11:57:39.470 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T08:57:39.469Z
+2025-06-30 11:57:39.485 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 11:57:39.640 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 14:02:23.426 [DEBUG] 💬 New location received at 2025-06-30T11:02:23.425Z
+2025-06-30 14:02:23.428 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:23.428 [DEBUG] [Watchdog] ♻️ Self‑healing: create watch on the fly for 686235e3d6db6639e78141d1
+2025-06-30 14:02:23.429 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:23.465 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=0, livePeriod=1800s, expireAt=2025-06-30T11:32:23.000Z
+2025-06-30 14:02:23.468 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:23.470 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:23.470 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:23.466Z
+2025-06-30 14:02:23.471 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:23.471Z
+2025-06-30 14:02:23.478 [INFO] [PositionService] ✅ Позиция сохранена: 68626ebfe74bf7b157a839cc
+2025-06-30 14:02:23.478 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:25.303 [DEBUG] 💬 New location received at 2025-06-30T11:02:25.303Z
+2025-06-30 14:02:25.305 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:25.305 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:25.310 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:25.305Z
+2025-06-30 14:02:25.311 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:25.312 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:25.313 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:25.313Z
+2025-06-30 14:02:25.316 [INFO] [PositionService] ✅ Позиция сохранена: 68626ec1e74bf7b157a839db
+2025-06-30 14:02:25.316 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:25.542 [DEBUG] 💬 New location received at 2025-06-30T11:02:25.542Z
+2025-06-30 14:02:25.544 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:25.544 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:25.548 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=false, lastSeen=2025-06-30T11:02:25.544Z
+2025-06-30 14:02:25.549 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:25.550 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:25.551 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:25.551Z
+2025-06-30 14:02:25.553 [INFO] [PositionService] ✅ Позиция сохранена: 68626ec1e74bf7b157a839e7
+2025-06-30 14:02:25.553 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:30.852 [DEBUG] 💬 New location received at 2025-06-30T11:02:30.852Z
+2025-06-30 14:02:30.854 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:30.854 [DEBUG] 🔄 Starting live location watchdog
+2025-06-30 14:02:30.855 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:30.858 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:30.854Z
+2025-06-30 14:02:30.858 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:30.860 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:30.861 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:30.861Z
+2025-06-30 14:02:30.863 [DEBUG] [Watchdog] ▶️ startWatch userId=686235e3d6db6639e78141d1, messageId=1450, livePeriod=900s, expireAt=2025-06-30T11:17:30.000Z
+2025-06-30 14:02:30.864 [INFO] [PositionService] ✅ Позиция сохранена: 68626ec6e74bf7b157a839fd
+2025-06-30 14:02:30.864 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:33.332 [DEBUG] 💬 New location received at 2025-06-30T11:02:33.332Z
+2025-06-30 14:02:33.333 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:33.334 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:33.337 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:33.334Z
+2025-06-30 14:02:33.337 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:33.339 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:33.341 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:33.341Z
+2025-06-30 14:02:33.343 [INFO] [PositionService] ✅ Позиция сохранена: 68626ec9e74bf7b157a83a0d
+2025-06-30 14:02:33.343 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:37.282 [DEBUG] 💬 New location received at 2025-06-30T11:02:37.282Z
+2025-06-30 14:02:37.284 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:37.285 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:37.289 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:37.285Z
+2025-06-30 14:02:37.290 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:37.294 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:37.296 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:37.296Z
+2025-06-30 14:02:37.300 [INFO] [PositionService] ✅ Позиция сохранена: 68626ecde74bf7b157a83a20
+2025-06-30 14:02:37.300 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:41.488 [DEBUG] 💬 New location received at 2025-06-30T11:02:41.488Z
+2025-06-30 14:02:41.490 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:41.491 [DEBUG] 🌐 Location: lat=56.321642, lon=44.029724
+2025-06-30 14:02:41.495 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:41.490Z
+2025-06-30 14:02:41.496 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:41.498 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:41.499 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.321642, lon=44.029724, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:41.499Z
+2025-06-30 14:02:41.502 [INFO] [PositionService] ✅ Позиция сохранена: 68626ed1e74bf7b157a83a33
+2025-06-30 14:02:41.502 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:45.280 [DEBUG] 💬 New location received at 2025-06-30T11:02:45.280Z
+2025-06-30 14:02:45.282 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:45.283 [DEBUG] 🌐 Location: lat=56.322761, lon=44.033423
+2025-06-30 14:02:45.287 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:45.283Z
+2025-06-30 14:02:45.288 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:45.290 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:45.291 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.322761, lon=44.033423, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:45.291Z
+2025-06-30 14:02:45.292 [INFO] [PositionService] ✅ Позиция сохранена: 68626ed5e74bf7b157a83a45
+2025-06-30 14:02:45.292 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:49.496 [DEBUG] 💬 New location received at 2025-06-30T11:02:49.496Z
+2025-06-30 14:02:49.498 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:49.498 [DEBUG] 🌐 Location: lat=56.322761, lon=44.033423
+2025-06-30 14:02:49.503 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:49.498Z
+2025-06-30 14:02:49.503 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:49.504 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:49.505 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.322761, lon=44.033423, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:49.505Z
+2025-06-30 14:02:49.508 [INFO] [PositionService] ✅ Позиция сохранена: 68626ed9e74bf7b157a83a58
+2025-06-30 14:02:49.508 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:02:53.497 [DEBUG] 💬 New location received at 2025-06-30T11:02:53.496Z
+2025-06-30 14:02:53.498 [DEBUG] 📍 User: G Pr
+2025-06-30 14:02:53.499 [DEBUG] 🌐 Location: lat=56.322761, lon=44.033423
+2025-06-30 14:02:53.503 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:02:53.499Z
+2025-06-30 14:02:53.504 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:02:53.506 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:02:53.508 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.322761, lon=44.033423, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:02:53.508Z
+2025-06-30 14:02:53.510 [INFO] [PositionService] ✅ Позиция сохранена: 68626edde74bf7b157a83a6a
+2025-06-30 14:02:53.511 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:03:22.513 [DEBUG] 💬 New location received at 2025-06-30T11:03:22.513Z
+2025-06-30 14:03:22.517 [DEBUG] 📍 User: G Pr
+2025-06-30 14:03:22.518 [DEBUG] 🌐 Location: lat=56.322761, lon=44.033423
+2025-06-30 14:03:22.524 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=true, lastSeen=2025-06-30T11:03:22.518Z
+2025-06-30 14:03:22.525 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:03:22.526 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:03:22.528 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.322761, lon=44.033423, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:03:22.528Z
+2025-06-30 14:03:22.531 [INFO] [PositionService] ✅ Позиция сохранена: 68626efae74bf7b157a83aa2
+2025-06-30 14:03:22.531 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:04:44.788 [DEBUG] 💬 New location received at 2025-06-30T11:04:44.787Z
+2025-06-30 14:04:44.790 [DEBUG] 📍 User: G Pr
+2025-06-30 14:04:44.790 [DEBUG] 🌐 Location: lat=56.322756, lon=44.033424
+2025-06-30 14:04:44.797 [DEBUG] [Watchdog] 🔄 updateWatch userId=686235e3d6db6639e78141d1, hasLivePeriod=false, lastSeen=2025-06-30T11:04:44.790Z
+2025-06-30 14:04:44.798 [DEBUG] ✅ Set liveLocationActive = true for 686235e3d6db6639e78141d1
+2025-06-30 14:04:44.799 [DEBUG] ℹ️ No active session, starting new
+2025-06-30 14:04:44.801 [DEBUG] [PositionService] 🛰️ Saving position: userId=686235e3d6db6639e78141d1, lat=56.322756, lon=44.033424, sessionId=686241681d9586c757c8f28e, taskId=686241651d9586c757c8f27d, timestamp=2025-06-30T11:04:44.801Z
+2025-06-30 14:04:44.804 [INFO] [PositionService] ✅ Позиция сохранена: 68626f4ce74bf7b157a83aae
+2025-06-30 14:04:44.804 [DEBUG] 📌 Position saved for session 686241681d9586c757c8f28e
+2025-06-30 14:10:09.580 [DEBUG] [Watchdog] 🕓 Timer triggered for 686235e3d6db6639e78141d1. Idle=true, Expired=false. Now=2025-06-30T11:10:09.575Z
+2025-06-30 14:10:09.686 [INFO] [Watchdog] 🛑 Ending live location for userId=686235e3d6db6639e78141d1
+2025-06-30 14:10:10.303 [DEBUG] [Watchdog] ℹ️ LiveLocation deactivated and user notified: 686235e3d6db6639e78141d1
+2025-06-30 14:11:42.601 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:11:49.369 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:16:54.144 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:34:34.992 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:36:04.713 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:36:07.821 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:40:36.716 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:40:53.158 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 14:42:41.212 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 15:17:02.458 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 15:17:10.749 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 16:23:45.091 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 16:23:59.723 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 16:28:42.248 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 16:28:51.742 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)
+2025-06-30 17:02:50.503 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 17:03:38.158 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 17:12:38.111 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 17:28:20.669 [INFO] [Watchdog] 🔁 Restored 0 active watches from Mongo (startup)
+2025-06-30 17:28:30.366 [ERROR] [Watchdog] ❌ Warm‑up error: MongooseError: Operation `livewatches.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/shoxy/Documents/Прибыл/node_modules/.pnpm/mongoose@8.16.1/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:614:17)
+    at processTimers (node:internal/timers:549:7)

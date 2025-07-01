@@ -114,8 +114,8 @@ interface Watch {
 
 const WATCHES = new Map<UserId, Watch>();
 
-const CHECK_MS = 30_000; // как часто пробегаемся по WATCHES
-const IDLE_MS  = 3 * 60_000; // нет апдейтов > 3 мин → считаем idle
+const CHECK_MS = 50_000; // как часто пробегаемся по WATCHES
+const IDLE_MS  = 5 * 60_000; // нет апдейтов > 3 мин → считаем idle
 const GRACE_MS = 15_000;    // «пустой» апдейт ≤ 15 с
 
 // ────────────────────────────────────────────────────────────────────────────

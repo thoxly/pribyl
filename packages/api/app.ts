@@ -11,6 +11,7 @@ import tastRouter from './routes/task';
 import positionsLiveRouter from './routes/positions';
 import workersLiveRouter from './routes/worker';
 import positionsPeriodRouter from './routes/positionsPeriodRouter';
+import tracksSegmentsRouter from './routes/tracksSegmentsRouter';
 
 const app = express();
 
@@ -40,5 +41,6 @@ app.use("/api", tastRouter);
 app.use('/api', positionsLiveRouter);
 app.use('/api', workersLiveRouter);
 app.use('/api', positionsPeriodRouter);
+app.use('/api', tracksSegmentsRouter);
 
 export default app;

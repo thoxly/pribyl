@@ -3,11 +3,12 @@ import { BotContext } from "../types/context";
 import TaskModel, { ITask } from "../models/Task";
 import { getCallbackData } from "../utils/getCallbackData";
 import { UserSessionStore } from "../services/UserSessionStore";
+import { tasksOverviewCommand } from "../commands/tasksOverview";
 
 const cache = new Map<string, ITask[]>();
 
 export function registerTaskListHandlers(bot: Telegraf<BotContext>): void {
-  bot.action(["view_accepted", "view_completed", "view_overdue"], listHandler);
+  bot.action(["view_accepted", "view_rework", "view_completed", "view_overdue"], listHandler);
   bot.action(/^task_select_(\d+)$/, detailsHandler);
   bot.action("back_to_last_list", backToListHandler);
   bot.action("back_to_tasks", backToMenuHandler);
@@ -32,6 +33,7 @@ async function listHandler(ctx: BotContext): Promise<void> {
 
   const statusMap = {
     view_accepted: "accepted",
+    view_rework: "needs_rework",
     view_completed: "completed",
     view_overdue: "overdue",
   } as const;
@@ -43,6 +45,8 @@ async function listHandler(ctx: BotContext): Promise<void> {
   const title =
     status === "accepted"
       ? "📥 Назначенные задачи:"
+      : status === "needs_rework"
+      ? "🔁 Задачи на доработку:"
       : status === "completed"
       ? "✅ Завершённые задачи:"
       : "⏰ Просроченные задачи:";
@@ -109,11 +113,20 @@ async function detailsHandler(ctx: BotContext & { match: RegExpMatchArray }) {
     return;
   }
 
+  const buttons =
+    task.status === "needs_rework"
+      ? [
+          [Markup.button.callback("✅ Подтвердить", `complete_${task._id}`)],
+          [
+            Markup.button.callback("⏮ Назад", "back_to_last_list"),
+            Markup.button.callback("⏭ Без отчёта", `finish_noreport_${task._id}`),
+          ],
+        ]
+      : [[Markup.button.callback("🔙 Назад", "back_to_last_list")]];
+
   await ctx.editMessageText(renderTaskDetails(task), {
     parse_mode: "Markdown",
-    reply_markup: Markup.inlineKeyboard([
-      Markup.button.callback("🔙 Назад", "back_to_last_list"),
-    ]).reply_markup,
+    reply_markup: Markup.inlineKeyboard(buttons).reply_markup,
   });
 }
 
@@ -136,6 +149,8 @@ async function backToListHandler(ctx: BotContext) {
   const title =
     tasks[0].status === "accepted"
       ? "📥 Назначенные задачи:"
+      : tasks[0].status === "needs_rework"
+      ? "🔁 Задачи на доработку:"
       : tasks[0].status === "completed"
       ? "✅ Завершённые задачи:"
       : "⏰ Просроченные задачи:";
@@ -169,17 +184,7 @@ async function backToMenuHandler(ctx: BotContext) {
   }
 
   await ctx.deleteMessage();
-
-  await ctx.telegram.sendMessage(ctx.chat!.id, "📋 Ваши задачи:", {
-    reply_markup: Markup.inlineKeyboard(
-      [
-        Markup.button.callback("📥 Назначенные", "view_accepted"),
-        Markup.button.callback("⏰ Просроченные", "view_overdue"),
-        Markup.button.callback("✅ Завершённые", "view_completed"),
-      ],
-      { columns: 1 }
-    ).reply_markup,
-  });
+  await tasksOverviewCommand(ctx);
 }
 
 function formatDate(date?: Date) {

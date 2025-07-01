@@ -10,10 +10,11 @@ export async function tasksOverviewCommand(ctx: BotContext): Promise<void> {
     return;
   }
 
-  const [assigned, completed, overdue] = await Promise.all([
+  const [assigned, completed, overdue, rework] = await Promise.all([
     TaskModel.find({ workerId: userId, status: "accepted" }).lean<ITask[]>(),
     TaskModel.find({ workerId: userId, status: "completed" }).lean<ITask[]>(),
     TaskModel.find({ workerId: userId, status: "overdue" }).lean<ITask[]>(),
+    TaskModel.find({ workerId: userId, status: "needs_rework" }).lean<ITask[]>(),
   ]);
 
   await ctx.reply(
@@ -23,6 +24,10 @@ export async function tasksOverviewCommand(ctx: BotContext): Promise<void> {
         Markup.button.callback(
           `📥 Назначенные (${assigned.length})`,
           "view_accepted"
+        ),
+        Markup.button.callback(
+          `🔁 На доработку (${rework.length})`,
+          "view_rework"
         ),
         Markup.button.callback(
           `✅ Завершённые (${completed.length})`,

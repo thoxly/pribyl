@@ -53,3 +53,27 @@ export async function fetchPositionsByTask(taskId: string) {
   });
   return res.json();
 }
+
+/**
+ * Загружает очищенный и упрощённый трек сотрудника за период
+ */
+export async function fetchCleanedTrack(
+  workerId: string,
+  dateFrom: string,
+  dateTo: string
+): Promise<[number, number][]> {
+  const params = new URLSearchParams({ workerId, dateFrom, dateTo });
+  const res = await fetch(`/api/tracks/segments?${params.toString()}`, {
+    credentials: "include",
+    headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+  });
+  if (res.status === 204) {
+    return [];
+  }
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Не удалось загрузить очищенный трек: ${text}`);
+  }
+  const json = (await res.json()) as { coordinates: [number, number][] };
+  return json.coordinates;
+}

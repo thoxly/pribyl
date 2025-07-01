@@ -1,10 +1,9 @@
 import { Router, Request, Response, NextFunction } from "express";
 import { authMiddleware } from "../middlewares/authMiddleware";
 import { requireCompanyMiddleware } from "../middlewares/requireCompanyMiddleware";
-import User , { IUser } from "../models/User";
+import User, { IUser } from "../models/User";
 import FsmState from "../models/FsmState";
 import { Types } from "mongoose";
-
 
 const router = Router();
 
@@ -16,8 +15,10 @@ router.get(
     try {
       const companyId = req.user!.company;
 
-      const workers = await User.find({ role: "worker", company: companyId })
-        .select("fullName photoUrl inviteCode onboardingCompleted status");
+      const workers = await User.find({
+        role: "worker",
+        company: companyId,
+      }).select("fullName photoUrl inviteCode onboardingCompleted status");
 
       res.json(workers);
     } catch (err) {
@@ -98,27 +99,27 @@ router.get(
         };
       };
 
-      const states = await FsmState
-        .find({}, { userId: 1, "data.liveLocation": 1 })
-        .lean<StateLean[]>();
+      const states = await FsmState.find(
+        {},
+        { userId: 1, "data.liveLocation": 1 }
+      ).lean<StateLean[]>();
 
-      const stateByUser = new Map<
-        string,
-        { active: boolean; lastSeen?: Date }
-      >(
-        states.map((s) => [
-          s.userId.toString(),
-          {
-            active: s.data?.liveLocation?.active ?? false,
-            lastSeen: s.data?.liveLocation?.lastSeen,
-          },
-        ])
+      const stateByUser = new Map<string, { active: boolean; lastSeen?: Date }>(
+        states
+          .filter((s): s is Required<Pick<StateLean, "userId">> & StateLean => {
+            return s.userId && Types.ObjectId.isValid(s.userId);
+          })
+          .map((s) => [
+            s.userId.toString(),
+            {
+              active: s.data?.liveLocation?.active ?? false,
+              lastSeen: s.data?.liveLocation?.lastSeen,
+            },
+          ])
       );
 
       /* 2. Загружаем пользователей (фильтровать можно по роли, если нужно) */
-      const users = await User
-        .find({}, "fullName photoUrl")
-        .lean<IUser[]>();
+      const users = await User.find({}, "fullName photoUrl").lean<IUser[]>();
 
       /* 3. Формируем ответ */
       res.json(
@@ -128,8 +129,8 @@ router.get(
             _id: u._id,
             fullName: u.fullName,
             photoUrl: u.photoUrl,
-            liveLocationActive: st.active,   // для обратной совместимости
-            lastSeen: st.lastSeen ?? null,   // новая опция
+            liveLocationActive: st.active, // для обратной совместимости
+            lastSeen: st.lastSeen ?? null, // новая опция
           };
         })
       );
@@ -139,9 +140,4 @@ router.get(
   }
 );
 
-
-
-
-
 export default router;
-
